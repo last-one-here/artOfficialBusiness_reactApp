@@ -1,0 +1,95 @@
+/* AboutPage.css */
+.about-page .page-header {
+  background-color: #FFC107; /* Yellow accent for about header */
+  color: #212529; /* Dark text for contrast on yellow */
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 0 0 8px 8px;
+}
+
+.about-page .page-header h1 {
+  color: #212529;
+  margin-top: 0;
+}
+
+.about-page .page-header p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0.5rem auto 0 auto;
+}
+
+.about-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.about-image-container {
+  flex: 1;
+  max-width: 350px; /* Max width for the image container */
+  text-align: center; /* Center the image if it's smaller than container */
+}
+
+.about-profile-image {
+  width: 100%;
+  max-width: 300px; /* Control the actual image size */
+  height: auto;
+  border-radius: 50%; /* Circular image */
+  border: 5px solid #FFFFFF;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-text-container {
+  flex: 2;
+}
+
+.about-text-container h2 {
+  font-size: 1.8rem;
+  color: #007BFF; /* Accent color */
+  margin-bottom: 1rem;
+}
+
+.about-text-container h3 {
+  font-size: 1.3rem;
+  color: #28A745; /* Another accent color for subheadings */
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-text-container p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustments for about page */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .about-image-container {
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+  }
+
+  .about-profile-image {
+    max-width: 250px; /* Slightly smaller on mobile */
+  }
+
+  .about-text-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-text-container h3 {
+    font-size: 1.2rem;
+  }
+}
+
