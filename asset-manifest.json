@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/artOfficialBusiness_reactApp/static/css/main.52b00b3d.css",
+    "main.js": "/artOfficialBusiness_reactApp/static/js/main.4b355307.js",
+    "static/js/453.70e55b0f.chunk.js": "/artOfficialBusiness_reactApp/static/js/453.70e55b0f.chunk.js",
+    "index.html": "/artOfficialBusiness_reactApp/index.html",
+    "main.52b00b3d.css.map": "/artOfficialBusiness_reactApp/static/css/main.52b00b3d.css.map",
+    "main.4b355307.js.map": "/artOfficialBusiness_reactApp/static/js/main.4b355307.js.map",
+    "453.70e55b0f.chunk.js.map": "/artOfficialBusiness_reactApp/static/js/453.70e55b0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52b00b3d.css",
+    "static/js/main.4b355307.js"
+  ]
+}
