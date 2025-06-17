@@ -1,0 +1,125 @@
+/* ContactPage.css */
+.contact-page .page-header {
+  background-color: #17A2B8; /* Teal accent for contact header */
+  color: #FFFFFF;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 0 0 8px 8px;
+}
+
+.contact-page .page-header h1 {
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.contact-page .page-header p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0.5rem auto 0 auto;
+}
+
+.contact-container {
+  display: flex;
+  gap: 2rem;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.contact-form-section {
+  flex: 2; /* Form takes more space */
+}
+
+.contact-info-section {
+  flex: 1;
+  background-color: #F8F9FA; /* Light background for info section */
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #E9ECEF;
+}
+
+.contact-info-section h3 {
+  margin-top: 0;
+  color: #007BFF; /* Accent color */
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info-section p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.contact-info-section ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-info-section li {
+  margin-bottom: 0.75rem;
+}
+
+.contact-info-section a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact-info-section a:hover {
+  text-decoration: underline;
+}
+
+.social-links-contact a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #007BFF;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.social-links-contact a:hover {
+  color: #0056b3;
+}
+
+.submission-success {
+  padding: 2rem;
+  background-color: #D4EDDA; /* Light green for success */
+  color: #155724; /* Dark green text */
+  border: 1px solid #C3E6CB;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.submission-success h3 {
+  margin-top: 0;
+  color: #155724;
+}
+
+/* Responsive adjustments for contact page */
+@media (max-width: 992px) { /* Adjust breakpoint if needed */
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-info-section {
+    margin-top: 2rem; /* Add space when stacked */
+  }
+}
+
+/* Form group styling is in App.css, ensure it applies or add here if specific overrides needed */
+.contact-form .form-group label {
+  /* App.css should cover this */
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  /* App.css should cover this */
+}
+
+.contact-form .cta-button {
+  /* App.css should cover this */
+  width: 100%; /* Make button full width in form */
+}
+

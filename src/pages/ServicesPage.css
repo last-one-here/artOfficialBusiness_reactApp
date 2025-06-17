@@ -1,0 +1,94 @@
+/* ServicesPage.css */
+.services-page .page-header {
+  background-color: #28A745; /* Green accent for services header */
+  color: #FFFFFF;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 0 0 8px 8px;
+}
+
+.services-page .page-header h1 {
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.services-page .page-header p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0.5rem auto 0 auto;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.service-item {
+  background-color: #FFFFFF;
+  border: 1px solid #DEE2E6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start; /* Align items to the start of the cross axis */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.service-image-container {
+  flex: 1;
+  max-width: 250px; /* Max width for the image container */
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Max height for the image itself */
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid #E9ECEF;
+}
+
+.service-details {
+  flex: 2; /* Allow details to take more space */
+}
+
+.service-details h3 {
+  margin-top: 0;
+  color: #007BFF; /* Accent color for service titles */
+  font-size: 1.5rem;
+}
+
+.service-details p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+/* Responsive adjustments for services page */
+@media (max-width: 768px) {
+  .service-item {
+    flex-direction: column;
+    align-items: center; /* Center items when stacked */
+    text-align: center;
+  }
+
+  .service-image-container {
+    max-width: 100%; /* Allow image container to be full width */
+    margin-bottom: 1rem;
+  }
+
+  .service-image {
+    max-height: 250px; /* Allow image to be a bit taller on mobile */
+  }
+
+  .service-details h3 {
+    font-size: 1.3rem;
+  }
+}
+

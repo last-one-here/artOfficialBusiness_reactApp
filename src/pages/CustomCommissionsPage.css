@@ -1,0 +1,66 @@
+/* CustomCommissionsPage.css */
+.custom-commissions-page .page-header {
+  background-color: #6F42C1; /* A distinct purple accent for custom commissions */
+  color: #FFFFFF;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 0 0 8px 8px;
+}
+
+.custom-commissions-page .page-header h1 {
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.custom-commissions-page .page-header p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0.5rem auto 0 auto;
+}
+
+/* Re-use portfolio grid styles from App.css or MuralPortfolioPage.css if applicable */
+.custom-commissions-page .portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.custom-commissions-page .portfolio-item {
+  border: 1px solid #DEE2E6; /* Light border */
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-commissions-page .portfolio-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.custom-commissions-page .portfolio-item img {
+  width: 100%;
+  height: 250px; /* Adjust as needed */
+  object-fit: cover;
+  display: block;
+}
+
+.custom-commissions-page .portfolio-item-info {
+  padding: 1rem;
+}
+
+.custom-commissions-page .portfolio-item-info h3 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  color: #6F42C1; /* Match header accent */
+}
+
+.custom-commissions-page .portfolio-category {
+  font-size: 0.9rem;
+  color: #6C757D; /* Muted color for category */
+  margin-bottom: 0.5rem;
+}
+

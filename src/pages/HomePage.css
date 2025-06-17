@@ -1,0 +1,89 @@
+/* HomePage.css */
+.home-page .hero-section {
+  /* background-image: url("/images/placeholder-hero.jpg"); */ /* User will replace this */
+  /* To make the placeholder visible if no image is set, you can add a background color */
+  background-color: #B0C4DE; /* Light Steel Blue - A neutral placeholder color */
+  min-height: 60vh; /* Ensure it's substantial */
+  color: #FFFFFF; /* White text for better contrast on a darker/colored background */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Add shadow for readability if background is busy */
+}
+
+.home-page .hero-section h1 {
+  color: #FFFFFF;
+}
+
+.home-page .intro-section {
+  padding: 2rem 1rem;
+  background-color: #FFFFFF; /* White background for this section */
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.home-page .intro-section h2 {
+  color: #007BFF; /* Accent color for heading */
+}
+
+.home-page .featured-work-section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.home-page .featured-work-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.home-page .home-featured-grid .portfolio-item img {
+  height: 200px; /* Slightly smaller for featured items on home */
+}
+
+.home-page .view-all-cta {
+  margin-top: 2rem;
+}
+
+.home-page .testimonial-section {
+  padding: 2rem 1rem;
+  background-color: #E9ECEF; /* Light gray background */
+  text-align: center;
+}
+
+.home-page .testimonial-item p {
+  font-style: italic;
+  max-width: 700px;
+  margin: 0 auto 1rem auto;
+}
+
+.home-page .testimonial-item strong {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal;
+}
+
+.home-page .secondary-cta-section {
+  padding: 3rem 1rem;
+  background-color: #007BFF; /* Accent color background */
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.home-page .secondary-cta-section h2 {
+  color: #FFFFFF;
+}
+
+.home-page .secondary-cta-section p {
+  margin-bottom: 1.5rem;
+}
+
+.home-page .secondary-cta-section .cta-button {
+  background-color: #FFFFFF;
+  color: #007BFF;
+  border: 2px solid #FFFFFF; /* Optional: add border if needed */
+}
+
+.home-page .secondary-cta-section .cta-button:hover {
+  background-color: #f0f0f0;
+  color: #0056b3;
+}
+

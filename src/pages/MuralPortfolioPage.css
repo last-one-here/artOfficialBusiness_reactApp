@@ -1,0 +1,90 @@
+/* PortfolioPage.css */
+.portfolio-page .page-header {
+  background-color: #007BFF; /* Accent color for header */
+  color: #FFFFFF;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+}
+
+.portfolio-page .page-header h1 {
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.portfolio-page .page-header p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0.5rem auto 0 auto;
+}
+
+.portfolio-filters {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.portfolio-filters button {
+  background-color: #E9ECEF;
+  color: #212529;
+  border: 1px solid #DEE2E6;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.portfolio-filters button:hover,
+.portfolio-filters button.active {
+  background-color: #007BFF;
+  color: #FFFFFF;
+  border-color: #007BFF;
+}
+
+/* Portfolio Grid (re-uses some styles from App.css but can be more specific) */
+.portfolio-page .portfolio-grid {
+  /* Styles are largely inherited from App.css .portfolio-grid */
+  /* Add any page-specific overrides here if needed */
+}
+
+.portfolio-page .portfolio-item {
+  /* Styles are largely inherited from App.css .portfolio-item */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-page .portfolio-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.portfolio-page .portfolio-item img {
+  /* Styles inherited, ensure it fits the card */
+}
+
+.portfolio-page .portfolio-item-info {
+  /* Styles inherited */
+}
+
+.portfolio-page .portfolio-item-info h3 {
+  /* Styles inherited */
+  color: #007BFF; /* Accent color for titles */
+}
+
+.portfolio-page .portfolio-category {
+  font-size: 0.9rem;
+  color: #6C757D; /* Muted color for category */
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-page .cta-button-small {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  background-color: #6C757D; /* Secondary button color */
+}
+
+.portfolio-page .cta-button-small:hover {
+  background-color: #5a6268;
+}
+
